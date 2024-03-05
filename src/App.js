@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Navbar from './Navbar';
 
 function App() {
 
@@ -40,7 +40,7 @@ function App() {
   
   return (
     <div className="App">
-
+      <Navbar />
       <main className='container mx-auto border py-4 mt-2'>
         <h1 className='text-red-600'>Hello World!</h1>
         <h1>{title}</h1>
