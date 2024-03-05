@@ -34,6 +34,9 @@ function App() {
     },
   ]
 
+  // Dynamic value
+  const link = "http://www.google.com"
+
   
   return (
     <div className="App">
@@ -52,6 +55,8 @@ function App() {
             <p>{`Position: ${items.pos}`}</p>
           </div>
         ))}
+
+        <a href={link}>Google</a>
       </main>
 
     </div>
